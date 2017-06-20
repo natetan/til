@@ -4,5 +4,8 @@ that supports many APIs for accessing data including MongoDB,
 DocumentDB, SQL, Gremlin, and Azure tables.  
   
 You can build a **DocumentDB API web app** with the *.NET SDK* and the 
-*Azure Portal*.
+*Azure Portal*.  
+
+I am working on the DocumentDB demo 
+[here](https://github.com/yulongtan/documentdbdemo).
 
