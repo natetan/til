@@ -25,16 +25,16 @@ partial void SliderSize_ValueChanged (UIKit.UISlider sender);
 
 partial void SwitchNight_ValueChanged(UISwitch sender) {
   if (switchNight.On) {
-		this.View.BackgroundColor = UIColor.FromRGB(25, 25, 112);
-		buttonStart.TitleLabel.TextColor = UIColor.White;
-		nightLabel.TextColor = UIColor.White;
-		sizeLabel.TextColor = UIColor.White;
-	} else {
-		this.View.BackgroundColor = UIColor.White;
-		buttonStart.TitleLabel.TextColor = UIColor.Black;
-		nightLabel.TextColor = UIColor.Black;
-		sizeLabel.TextColor = UIColor.Black;
-	}
+    this.View.BackgroundColor = UIColor.FromRGB(25, 25, 112);
+    buttonStart.TitleLabel.TextColor = UIColor.White;
+    nightLabel.TextColor = UIColor.White;
+    sizeLabel.TextColor = UIColor.White;
+  } else {
+    this.View.BackgroundColor = UIColor.White;
+    buttonStart.TitleLabel.TextColor = UIColor.Black;
+    nightLabel.TextColor = UIColor.Black;
+    sizeLabel.TextColor = UIColor.Black;
+  }
 }
 
 ...
